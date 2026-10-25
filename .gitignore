@@ -1,0 +1,19 @@
+# Python / uv
+__pycache__/
+*.py[cod]
+.venv/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Secrets
+.env
+*.env
+
+# Run data written by the runner (published runs are released separately)
+runs/
+
+# Held back for now (to be published later)
+analysis/
+report/figures/
